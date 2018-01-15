@@ -3,9 +3,10 @@
 main(){
 	int c, nl, space, tab;
 
-    nl = 0;
-    space = 0;
-    tab = 0;
+	nl = 0;
+	space = 0;
+	tab = 0;
+
 	while((c = getchar()) != EOF){
 		if(c == '\n')
 			++nl;

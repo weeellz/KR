@@ -4,7 +4,7 @@ main(){
 	int c;
 	int count = 0;
 
-    while((c = getchar()) != EOF){
+	while((c = getchar()) != EOF){
 		if(c == ' '){
 			if (count == 0){
 				++count;
